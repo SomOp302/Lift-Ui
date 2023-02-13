@@ -1,0 +1,15 @@
+name: LiftUI
+version: 1.0.0
+main: SomOP/Lift
+api: 4.0.0
+author: SomDevOp
+
+commands:
+  liftui:
+    description: Open Lift Menu to explore mine
+    permission: liftui.cmd
+    
+permissions:
+  liftui.cmd:
+    description: Permission to use lift operator command
+    default: true
