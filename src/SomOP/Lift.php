@@ -127,13 +127,13 @@ public function liftui(Player $player) {
          
     $form->setTitle("§l§cLIFT OPERATOR");
     $form->setContent("§r§9Select The mine Which You Want To explore:");
-    $form->addButton("§l§bIRON MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/4618/4618495.png");
-    $form->addButton("§l§bGOLD MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/532/532606.png");
-    $form->addButton("§l§bREDSTONE MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/4492/4492671.png");
-    $form->addButton("§l§bLAPIS MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/7417/7417717.png");
-    $form->addButton("§l§bEMERALD MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/3472/3472185.png");
-    $form->addButton("§l§bDIAMOND MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/2084/2084189.png");
-    $form->addButton("§l§bSANTUARY\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/4617/4617270.png");
+    $form->addButton("§l§bIRON MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/7382/7382729.png");
+    $form->addButton("§l§bGOLD MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/1473/1473504.png");
+    $form->addButton("§l§bREDSTONE MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/594/594739.png");
+    $form->addButton("§l§bLAPIS MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/6846/6846326.png");
+    $form->addButton("§l§bEMERALD MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/6839/6839115.png");
+    $form->addButton("§l§bDIAMOND MINE\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/432/432492.png");
+    $form->addButton("§l§bSANTUARY\n§r§l§d» §r§8Tap To Teleport", 0, "https://cdn-icons-png.flaticon.com/512/5054/5054297.png");
     $form->sendtoPlayer($player);
     return $form;
     
